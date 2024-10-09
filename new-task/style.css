@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+}
+.nav-ul{
+    display: flex;
+    color: white;
+}
+.nav-div2{
+    margin-right: 15px;
+}
+.nav-ul li {
+ list-style-type: none;
+ margin-left: 15px;
+}
+.nav-ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.Hero{
+   
+    background: url("assets/la.jpg");
+    width: 100vw;
+    height: calc(100vh-20vh);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+
+
+
+
+
+
+

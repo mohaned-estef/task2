@@ -1,0 +1,581 @@
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+
+}
+header{
+    width:100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#808080;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    }
+
+main{
+    
+    width:60%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    margin: 0 auto;
+    border: 2px;
+    margin-top: 20px;
+    border:1px;
+    border-style:solid;
+    border-color:rgb(128,128,128,0.25);
+    padding: 10px;
+}
+
+h1{
+display: flex;
+flex-direction: column;
+align-items:center;
+    
+font-size: 20px;
+margin: 5px;
+}
+header h2{
+    display: flex;
+flex-direction: column;
+align-items:center;
+
+    font-size: 15px;
+    margin:5px;
+}
+header img{
+    display: flex;
+flex-direction: column;
+align-items:center;
+
+border-radius: 100%;
+}
+
+.S_ContactMe{
+    display: flex;
+
+    flex-direction:row;
+
+    align-items:center;
+
+    justify-content:center;
+
+    width:85%;
+
+    margin-top: 4%;
+    margin-bottom: 4%;
+    
+}
+
+em{
+    height:1px;
+    width:95%;
+    color: #007afd;
+    background-color:rgb(128, 128, 128,0.25);
+    margin-bottom:20px;
+    margin-top: 20px;
+}
+.S_FollowMe{
+   
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+
+}
+.S_general{
+
+    display: flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content:center;
+    margin-top: 5%;
+    width: 90%;
+    margin: 0 auto;
+    
+  
+}
+.S_general_Experience{
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    
+    justify-content:center;
+   
+    width: 100%;
+   
+}
+
+.S_general_Education{
+    display: flex;
+
+    flex-direction: row;
+    align-items:center;
+
+  
+    justify-content:center;
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+.S_general_Programming-skills{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    flex-wrap: wrap;
+    gap:0px;
+    justify-content:center;
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+.S_general_Interests{
+    display: flex;
+    
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0px;
+    justify-content:center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+
+
+#S_h5_ContactMe{
+    
+    margin-right:82%;
+    color:black;
+    font-size: 20px;
+    margin-top: 5%;
+    }
+
+#S_h5_FollowMe{
+   
+    margin-right:82%;
+    color:black; 
+    font-size: 20px;   
+}
+
+
+.S_FollowMe_All{
+
+    width: 100%;
+  
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:flex-start;
+    margin-top: 10px;
+    letter-spacing: 10px;
+  
+}
+.S_general_Education_1{
+    background-color: #007afd;
+    margin: 6px;
+    width: 27%;
+    border-radius: 2%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    overflow-wrap: break-word;
+}
+
+.S_general_Education_2{
+    background-color: #007afd;
+    margin: 6px;
+    width: 27%;
+    border-radius: 2%;
+ 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    overflow-wrap: break-word;
+}
+.S_general_Education_3{
+    background-color: #007afd;
+    margin: 6px;
+    width: 27%;
+    border-radius: 2%;
+     px;
+    display: flex;
+flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    overflow-wrap: break-word;
+}
+
+.S_general_Programming-skills_1{
+    background-color: #007afd;
+    margin: 6px;
+    width: 20%;
+    border-radius: 2%;
+     px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    overflow-wrap: break-word;
+
+}
+
+.S_general_Programming-skills_2{
+    background-color: #007afd;
+    margin: 6px;
+    width: 20%;
+    border-radius: 2%;
+     px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding: 15px;
+    overflow-wrap: break-word;
+
+}
+
+.S_general_Programming-skills_3{
+    background-color: #007afd;
+    margin: 6px;
+    width: 20%;
+    border-radius: 2%;
+     px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+    justify-content: center;
+
+    padding: 15px;
+    overflow-wrap: break-word;
+
+}
+
+.S_general_Programming-skills_4{
+    background-color: #007afd;
+    margin: 6px;
+    width: 20%;
+    border-radius: 2%;
+     px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    overflow-wrap: break-word;
+
+}
+
+.S_general_Programming-skills_5{
+    background-color: #007afd;
+    margin: 6px;
+    width: 20%;
+    border-radius: 2%;
+     px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding: 15px;
+    overflow-wrap: break-word;
+
+}
+
+.S_general_Programming-skills_6{
+    background-color: #007afd;
+    margin: 6px;
+    width: 20%;
+    border-radius: 2%;
+     px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding: 15px;
+    overflow-wrap: break-word;
+
+}
+
+.S_general_Programming-skills_7{
+    background-color: #007afd;
+    margin: 6px;
+    width: 20%;
+    border-radius: 2%;
+     px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+    justify-content: center;
+    padding: 15px;
+    overflow-wrap: break-word;
+
+}
+
+.S_general_Interests_1{
+
+    background-color: #007afd;
+    margin: 6px;
+    width: 20%;
+    border-radius: 2%;
+     px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+    justify-content: center;
+
+    padding: 15px;
+    overflow-wrap: break-word;
+
+
+}
+
+.S_general_Interests_2{
+
+    background-color: #007afd;
+    margin: 6px;
+    width: 20%;
+    border-radius: 2%;
+     px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    overflow-wrap: break-word;
+
+
+}
+
+.S_general_Interests_3{
+
+    background-color: #007afd;
+    margin: 6px;
+    width: 20%;
+    border-radius: 2%;
+     px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    overflow-wrap: break-word;
+
+
+}
+
+.S_general_Interests_4{
+
+    background-color: #007afd;
+    margin: 6px;
+    width: 20%;
+    border-radius: 2%;
+     px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding: 15px;
+    overflow-wrap: break-word;
+
+
+}
+
+.S_general_Interests_5{
+
+    background-color: #007afd;
+    margin: 6px;
+    width: 20%;
+    border-radius: 2%;
+     px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    overflow-wrap: break-word;
+
+
+}
+
+
+
+.S_general_Experience_i_strong_0{
+    display: flex;
+flex-direction: row;
+align-items: center;
+
+margin-right: 86%;
+
+margin-top:10%;
+margin-bottom: 5%;
+
+}
+
+.S_general_Education_i_strong_1{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+
+    margin-right: 86%;
+    margin-top:10%;
+    
+    }
+
+.S_general_Programming-skills_i_strong_2{
+ 
+    display: flex;
+flex-direction: row;
+align-items:center;
+  
+    margin-right: 68%;
+    word-break:normal;
+    margin-top:10%;
+}
+
+.S_general_Interests_i_strong_3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+    margin-right:89%;
+    word-break:normal;
+    margin-top:10%;
+
+}
+
+.S_general_Experience_1{
+    background-color: #007afd;
+    margin: 6px;
+    width: 27%;
+    border-radius: 2%;
+     px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+    justify-content: center;
+    padding: 15px;
+    overflow-wrap: break-word;
+}
+
+.S_general_Experience_2{
+    background-color: #007afd;
+    margin: 6px;
+    width: 27%;
+    border-radius: 2%;
+     px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    overflow-wrap: break-word;
+}
+
+.S_general_Experience_3{
+    background-color: #007afd;
+    margin: 6px;
+    width: 27%;
+    border-radius: 2%;
+     px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding: 15px;
+    
+}
+
+
+.S_ContactMe_telephone{
+    background-color: #007afd;
+    margin: 6px;
+    width: 25%;
+    border-radius: 2%;
+     px;
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+  
+    padding: 15px;
+    
+}
+
+.S_ContactMe_position{
+    background-color: #007afd;
+    margin: 6px;
+    border-radius: 2%;
+     px;
+    width: 25%;
+
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+
+    padding: 15px;
+    text-decoration: none;
+}
+
+.S_ContactMe_email{
+    background-color: #007afd;
+    margin: 6px;
+    border-radius: 2%;
+    width: 25%;
+   
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+
+    justify-content: center;
+   
+    
+    padding: 15px;
+    overflow-wrap:break-word;
+    
+}
+.S_ContactMe_random{
+    background-color: #007afd;
+    margin: 6px;
+    border-radius: 2%;
+    width: 25%;
+     px;
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+    align-items:center;
+    
+    padding: 15px;
+    text-decoration: none;
+    text-align: justify;
+}
+
+
+
+

@@ -1,0 +1,51 @@
+.parent {
+  background-color: red;
+  padding: 20px;
+  margin: 20px 0;
+  cursor: pointer;
+  transition: 1s all ease-in-out;
+}
+
+/* css combinators */
+
+/* the first child in the level one (child) */
+/* .parent > p {
+  color: white;
+} */
+
+/* the first p after the .parent element (sibling) */
+/* .parent + p {
+  color: green;
+} */
+
+/* the all p element after the .parent element (sibling) */
+/* .parent ~ p {
+  color: green;
+} */
+
+/* pseudo class */
+.parent:hover {
+  background-color: green;
+  color: white;
+}
+
+/* pseudo element */
+
+.parent::after {
+  content: "";
+  width: 1px;
+  height: 10px;
+  color: blue;
+}
+
+.menu {
+  list-style: none;
+}
+
+.menu li::before {
+  content: "";
+  background: url("./../s5/images/love.jpg");
+  width: 5px;
+  height: 5px;
+  display: block;
+}
